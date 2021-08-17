@@ -1,0 +1,69 @@
+h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22rem;
+}
+h1::before,
+h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid black;
+  width: 10rem;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.back-arrow {
+  font-size: 30px;
+}
+
+.fafa-arrow-circle-left {
+  font-size: 30px;
+  color: black;
+  margin-left: 40rem;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.card-container {
+  text-align: center;
+}
+.card-box {
+  border: 2px solid salmon;
+  width: 280px;
+  height: 250px;
+  margin-top: 1rem;
+  margin-left: 36rem;
+  border-radius: 8px;
+  box-shadow: 4px 6px 15px lightgrey;
+}
+
+.card-heading {
+  color: salmon;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial Narrow, sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.hr-line {
+  margin-left: 85px;
+  border-top: 1px solid black;
+}
+
+.completed-task {
+  color: red;
+  text-decoration: line-through;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pending-task {
+  margin-right: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus-circle {
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 6rem;
+}

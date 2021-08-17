@@ -1,0 +1,63 @@
+.main-heading-tasks {
+  margin-left: 15rem;
+  margin-top: 10rem;
+  display: inline-flex;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-heading-lists {
+  margin-left: 5px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.pluscircle-img {
+  margin-left: 40rem;
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.pluscircle-addlist {
+  margin-left: 1rem;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-left: 5px;
+}
+
+.first-card {
+  border: 2px solid salmon;
+  width: 210px;
+  height: 320px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 4px 15px lightslategray;
+}
+
+.firstcard-heading {
+  color: salmon;
+  /* color: sandybrown; */
+  font-size: 20px;
+}
+
+.hr-line {
+  margin-left: 40px;
+}
+
+.completed-task {
+  color: red;
+  text-decoration: line-through;
+}
+
+.pending-task {
+  margin-right: 80px;
+}
